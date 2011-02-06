@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(:version => 20110206150021) do
   create_table "posts", :force => true do |t|
     t.string   "name"
     t.string   "title"
-    t.text     "context"
+    t.text     "content"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
